@@ -1,0 +1,43 @@
+{
+  "name": "project00",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --open --config webpack.dev.js",
+    "start": "node .bin/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "cookie-parser": "^1.4.7",
+    "css-loader": "^7.1.2",
+    "cssnano": "^7.0.6",
+    "debug": "^4.3.7",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "http-errors": "^2.0.0",
+    "jquery": "^3.7.1",
+    "mini-css-extract-plugin": "^2.9.2",
+    "mongoose": "^8.8.3",
+    "morgan": "^1.10.0",
+    "postcss-loader": "^8.1.1",
+    "rxjs": "^7.8.1",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.96.1",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
+    "webpack-merge": "^6.0.1"
+  }
+}
